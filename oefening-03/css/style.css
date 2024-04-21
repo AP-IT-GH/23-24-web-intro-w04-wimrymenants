@@ -13,3 +13,10 @@
     border: 1px solid rgba(86, 61, 124, .2);
     color: brown;
   }
+ 
+  @media (max-width: 768px) {
+    .themed-grid-col {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  }
